@@ -30,7 +30,7 @@ var VotesCtrl = require('./Controllers/CVotes');
 
 
 var router = express.Router();
-router.get('/WebPage', function(req, res) {
+router.get('/', function(req, res) {
     res.send("<h1>Api Rest Web Publicidades Ramjets With MongoDB running...</h1>");
 });
 
@@ -95,7 +95,7 @@ app.use('/api', RTokensApp);
 app.use('/api', RParticipants);
 app.use('/api', RVotes);
 
-var Port = 3050;//process.env.PORT || 8888;
+var Port = process.env.PORT || 8888;//3050;//
 app.listen(Port, function() {
     console.log("Node server running on http://localhost:3000. Server Web Publicidades Ramjets With MongoDB");
 });
