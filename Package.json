@@ -1,0 +1,31 @@
+{
+  "name" : "Publicidades_Backend",
+  "version" : "0.0.1",
+  "description": "API de consumo DB Mongo DLicors",
+  "author": "Luis Eduardo Oquendo Perez <asephirotammale@gmail.com>",
+  "contributors": [
+  	{
+	  "name": "Luis Eduardo Oquendo Perez",
+	  "email": "asephirotammale@gmail.com",
+	  "office": "Software Developer"
+	}
+],
+  "repository": {
+  "type": "git",
+  "url": "https://github.com/OJDevelopers/PublicidadesBackend"
+},
+  "bugs": {
+  "url": "https://github.com/OJDevelopers/PublicidadesBackend/issues"
+},
+"keywords": [
+  "Publicidades Api Rest",
+  "Rest",
+  "Api Rest"
+],
+"dependencies" : {
+   "mongoose": "3.6.11",
+   "express": "4.7.1",
+   "method-override": "2.1.2",
+   "body-parser": "1.5.1"
+  }
+}
